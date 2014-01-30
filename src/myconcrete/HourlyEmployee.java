@@ -7,14 +7,18 @@ package myconcrete;
  */
 public class HourlyEmployee extends Employee{
  
+    /**
+     * Property the all HOURLY employees have.
+     */
     private String hourlyWage;
 
     /**
+     * Constructor for concrete HourlyEmployee
      * 
-     * @param fName
-     * @param lName
-     * @param employeeID
-     * @param department 
+     * @param fName - a string object
+     * @param lName - a string object
+     * @param employeeID - a string object
+     * @param department - a string object
      */
     public HourlyEmployee(String fName, String lName, String employeeID, String department) {
         super(fName, lName, employeeID, department);
