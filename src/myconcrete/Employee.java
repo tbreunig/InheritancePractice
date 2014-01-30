@@ -17,10 +17,10 @@ public class Employee {
     /**
      * Constructor for Concrete Employee
      * 
-     * @param fName - Parameter holds employee first name
-     * @param lName - Parameter holds employee last name
-     * @param employeeID - Parameter holds employeeID number
-     * @param department - Parameter holds department name
+     * @param fName - a string object
+     * @param lName - a string object
+     * @param employeeID - a string object
+     * @param department - a string object
      */
     public Employee(String fName, String lName, String employeeID, String department) {
         this.fName = fName;
